@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:layout_gravity="top"
+    android:background="@color/page_title_bg"
+    android:orientation="horizontal"
+    android:padding="0dip" >
+    
+    <TextView
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_gravity="center_vertical"
+        android:text="@string/set_cancel"
+        android:textSize="16sp"
+        android:textColor="@color/text_top_color" />    
+
+    <TextView
+        android:id="@+id/custom_title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/page_title_color"
+        android:text="@string/settings_play" />
+
+    <TextView
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="center_vertical"
+        android:text="@string/set_ok"
+        android:textSize="16sp"
+        android:textColor="@color/text_top_color" />
+
+</LinearLayout>

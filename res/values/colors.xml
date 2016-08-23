@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<color name="nav_bottom_font">#ff44c019</color>	
+   	<color name="page_bg">#FFEFEFEF</color>	 
+
+	<color name="mygray">#80333333</color>	
+	<color name="transparent">#00000000</color>
+	 
+    <color name="color_item_press">#ffeeeeee</color>
+    <color name="color_item_normal">#ffffffff</color>
+
+	<color name="page_title_bg">#FF0BB68B</color>	
+	<color name="page_title_color">#FFF9F9F9</color>
+		
+	<color name="list_title_bg">#FFF9F9F9</color>
+	<color name="list_title_font">#FF666666</color>
+	
+   	<color name="user_list_item_color">#D2333333</color>
+	
+    <!-- Settings Line -->
+    <color name="list_setting_line">#FFD9D9D9</color>    
+    <color name="list_setting_n">#FFFFFFFF</color>
+    <color name="list_setting_p">#FFD9D9D9</color>
+    <color name="list_setting_bg">#FFEBEBEB</color> 
+    
+    <color name="grid_divider_color">#ffdddddd</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>    
+</resources>
