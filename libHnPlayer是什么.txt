@@ -27,14 +27,12 @@ libHnPlayerÖ§³Ö¸÷ÖÖ³£¼ûµÄÁ÷Ã½ÌåĞ­Òé£¬¿ÉÒÔµã²¥»òÕßÖ±²¥ÒôÆµºÍÊÓÆµ£¬ÈçÏÂ³£¼ûĞ­Òé¾ùÄ
 5¡¢²úÆ·ÍøÖ·£º
 ´úÂë£º
 http://hnjhn.com/player/?p=code
-https://github.com/hnjhn
 
 ÏîÄ¿£º
 http://hnjhn.com/player/?p=pro
 
 Ê¾Àı£º
 http://hnjhn.com/player/?p=demo
-http://fir.im/hnplayer
 
 -----------------------------------
 ½»Á÷QQÈº£º41029988 
