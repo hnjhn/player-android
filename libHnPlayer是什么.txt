@@ -1,0 +1,42 @@
+1、libHnPlayer是什么？
+libHnPlayer是一款跨平台上的通用多媒体开发底层库，
+基于最新版FFmpeg解码器及流媒体解析器，UI层封装成独立控件，提供简洁易用API接口及丰富播放事件捕捉，
+能够流畅播放720P至1080P高清MKV，FLV，MP4，TS，H264等常见格式的视频，可以在Windows,Android与IOS上跨平台支持 MMS, RTSP, RTMP, HLS(m3u8)等常见的多种视频流媒体协议，满足点播与直播的需求。
+
+有了libHnPlayer，您在各平台上开发多媒体网络播放器，变得非常容易，简单使用，敏捷开发，短时间内就能打造万能，强大的网络播放器！
+
+2、网络流媒体
+libHnPlayer支持各种常见的流媒体协议，可以点播或者直播音频和视频，如下常见协议均能无缝支持：
+.RTSP (RTP, SDP), RTMP
+.HTTP progressive streaming
+.MMS
+.HLS - HTTP live streaming (M3U8)
+
+3、其它特性
+流媒体播放缓冲
+画面抓拍
+全屏切换
+更多的功能，敬请期待...
+
+4、产品动态
+.Android版已经发布
+.Windows版正在开发中
+ 注：底层C库，DotNET WinForm控件，C#接口.
+.IOS版，计划中.
+  
+5、产品网址：
+代码：
+http://hnjhn.com/player/?p=code
+https://github.com/hnjhn
+
+项目：
+http://hnjhn.com/player/?p=pro
+
+示例：
+http://hnjhn.com/player/?p=demo
+http://fir.im/hnplayer
+
+-----------------------------------
+交流QQ群：41029988 
+-----------------------------------
+ 

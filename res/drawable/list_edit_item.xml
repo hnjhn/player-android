@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 获得焦点 -->
+    <item android:drawable="@drawable/edit_bottom_line_p" android:state_focused="true" android:state_pressed="false"/>
+
+    <!-- 点击 -->
+    <item android:drawable="@drawable/edit_bottom_line_p" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/edit_bottom_line_p" android:state_focused="false" android:state_pressed="true"/>
+
+    <!-- 正常 -->
+    <item android:drawable="@drawable/edit_bottom_line"/>
+
+</selector>

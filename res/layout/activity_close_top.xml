@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_panel"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:layout_gravity="top"
+    android:background="@color/page_title_bg"
+    android:orientation="horizontal"
+    android:padding="0dip" >
+    
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:src="@drawable/nav_selector_close" />    
+
+    <TextView
+        android:id="@+id/custom_title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/page_title_color"
+        android:paddingLeft="12dip"
+        android:text="@string/app_title" />
+
+    <ImageButton
+        android:id="@+id/btnMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:visibility="invisible"
+        android:src="@drawable/nav_selector_more" />
+</LinearLayout>

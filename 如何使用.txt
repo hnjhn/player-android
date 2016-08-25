@@ -1,0 +1,65 @@
+===================================
+libhnplayer SDK Android版使用说明:
+===================================
+
+1、将库文件libhnplayer.jar, libhnplayer.so文件加入到项目中
+
+2、
+将播放器视频控件加入到布局中
+<com.hnjhn.player.ui.VideoView
+    android:id="@+id/myVideoView"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:visibility="visible" />
+    
+3、
+播放的页面实现IHnPlayer, IHnPlayEvent,即可
+public class PlayActivity extends Activity implements IHnPlayer, IHnPlayEvent {
+	private VideoView mVideoView;	
+	private PlayEvent mEvent;
+	private HnPlayer mPlayer;
+	
+  /*Load the .so*/
+	static{
+		PlayUtil.LoadNativeLibraries();
+	}
+
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        
+        mVideoView = (VideoView) findViewById(R.id.myVideoView);        
+        mPlayer = HnPlayer.createNew(this, mVideoView);
+        mEvent = mPlayer.getEvent();
+		
+        initView();
+    }
+    
+    private void initView(){
+    }
+ }
+ 
+4、部分接口
+public HnPlayer getPlayer();
+public void onUserEvent(int what, Message msg);
+public void onPlayError(int code);
+public void onPlaying();
+public void onPlayStop();
+public void onPlayExit();
+public void onPhotograph(boolean success);
+
+
+代码：
+http://hnjhn.com/player/?p=code
+
+项目：
+http://hnjhn.com/player/?p=pro
+
+示例：
+http://hnjhn.com/player/?p=demo
+
+更多的参考,请查看demo项目。
+如有问题：
+请加入QQ群：41029988 ，交流！
+	
